@@ -70,8 +70,8 @@ const router = createHashRouter(
                 },
             ],
         },
-    ],
-    { basename: "/instead_of_me_cafe" }
+    ]
+    // { basename: "/instead_of_me_cafe" }
 );
 
 function App() {
