@@ -119,7 +119,7 @@ export default function CafesMobile() {
                         />
                     </Box>
 
-                    <Center w="100%">
+                    <Center w="100%" mb="100px">
                         <VStack>
                             <VStack
                                 mt="0px"
