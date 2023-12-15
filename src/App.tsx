@@ -39,6 +39,33 @@ const router = createBrowserRouter(
                 },
             ],
         },
+        {
+            path: "/instead_of_me_cafe",
+            element: <Layout />,
+            errorElement: <NotFound />,
+            children: [
+                {
+                    path: "",
+                    element: <Home />,
+                },
+                {
+                    path: "about",
+                    element: <About />,
+                },
+                {
+                    path: "cafes",
+                    element: <Cafes />,
+                },
+                {
+                    path: "contact",
+                    element: <Contact />,
+                },
+                {
+                    path: "shop",
+                    element: <Shop />,
+                },
+            ],
+        },
     ],
     { basename: "/instead_of_me_cafe" }
 );
