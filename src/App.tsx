@@ -10,35 +10,38 @@ import { useRecoilValue, useSetRecoilState } from "recoil";
 import { currentMode } from "./project_common";
 import { useEffect } from "react";
 
-const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <Layout />,
-        errorElement: <NotFound />,
-        children: [
-            {
-                path: "",
-                element: <Home />,
-            },
-            {
-                path: "about",
-                element: <About />,
-            },
-            {
-                path: "cafes",
-                element: <Cafes />,
-            },
-            {
-                path: "contact",
-                element: <Contact />,
-            },
-            {
-                path: "shop",
-                element: <Shop />,
-            },
-        ],
-    },
-]);
+const router = createBrowserRouter(
+    [
+        {
+            path: "/",
+            element: <Layout />,
+            errorElement: <NotFound />,
+            children: [
+                {
+                    path: "",
+                    element: <Home />,
+                },
+                {
+                    path: "about",
+                    element: <About />,
+                },
+                {
+                    path: "cafes",
+                    element: <Cafes />,
+                },
+                {
+                    path: "contact",
+                    element: <Contact />,
+                },
+                {
+                    path: "shop",
+                    element: <Shop />,
+                },
+            ],
+        },
+    ],
+    { basename: "/instead_of_me_cafe" }
+);
 
 function App() {
     const setCurrentMode = useSetRecoilState(currentMode);
