@@ -1,4 +1,4 @@
-# Images resources
+export const license = `# Images resources
 
 사진: <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EA%B0%88%EC%83%89-%EB%82%98%EB%AC%B4-%ED%8C%90%EC%97%90-%EC%BB%A4%ED%94%BC-%EA%B0%80%EB%A3%A8-%EC%98%86%EC%97%90-%EC%BB%A4%ED%94%BC-%EC%BD%A9-KixfBEdyp64?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>의<a href="https://unsplash.com/ko/@nate_dumlao?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nathan Dumlao</a>
 
@@ -69,3 +69,4 @@
 사진: <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EC%88%98%EC%98%81%EC%9E%A5-%EC%98%86%EC%97%90-%EC%95%89%EC%95%84-%EC%9E%88%EB%8A%94-%EB%AC%BC%EB%B3%91-2%EA%B0%9C-RQiLzyDNa-k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>의<a href="https://unsplash.com/ko/@sj_unsplash?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">SJ 📸</a>
 
 사진: <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%ED%85%8C%EC%9D%B4%EB%B8%94-%EC%9C%84%EC%97%90-%EB%86%93%EC%9D%B8-%EA%B2%80%EC%9D%80-%EC%BB%B5-HjJDNipD7Qw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>의<a href="https://unsplash.com/ko/@battlecreekcoffeeroasters?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Battlecreek Coffee Roasters</a>
+`;
