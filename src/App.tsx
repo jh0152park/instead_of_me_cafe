@@ -13,6 +13,7 @@ import Shop from "./screen/shop";
 import { useRecoilValue, useSetRecoilState } from "recoil";
 import { currentMode } from "./project_common";
 import { useEffect } from "react";
+import License from "./screen/license";
 
 const router = createHashRouter(
     [
@@ -41,6 +42,10 @@ const router = createHashRouter(
                     path: "shop",
                     element: <Shop />,
                 },
+                {
+                    path: "license",
+                    element: <License />,
+                },
             ],
         },
         {
@@ -67,6 +72,10 @@ const router = createHashRouter(
                 {
                     path: "shop",
                     element: <Shop />,
+                },
+                {
+                    path: "license",
+                    element: <License />,
                 },
             ],
         },
