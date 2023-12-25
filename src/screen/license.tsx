@@ -1,4 +1,4 @@
-import { HStack, Heading, Image, Text, VStack } from "@chakra-ui/react";
+import { HStack, Heading, Text, VStack } from "@chakra-ui/react";
 import { license } from "../resources/ImageLicense";
 
 export default function License() {
