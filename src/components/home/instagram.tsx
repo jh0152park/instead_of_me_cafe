@@ -19,7 +19,7 @@ export default function Instagram() {
         images.push(require(`../../resources/images/instagram/insta${i}.jpg`));
 
     return (
-        <Center w="100%" h="100vh" bgColor="whiteAlpha.200">
+        <Center w="100%" h="100vh">
             <VStack>
                 <Box mb="120px">
                     <HStack w="100%">

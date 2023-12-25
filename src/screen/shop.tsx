@@ -72,7 +72,7 @@ export default function Shop() {
 
     return (
         <>
-            <Center w="100%" minH="100vh" bgColor="whiteAlpha.200" pt="200px">
+            <Center w="100%" minH="100vh" pt="200px">
                 <VStack>
                     <Box mb="200px">
                         <HStack w="100%">

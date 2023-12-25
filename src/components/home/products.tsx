@@ -42,7 +42,7 @@ export default function Products() {
     ];
 
     return (
-        <Center w="100%" h="100vh" bgColor="whiteAlpha.200">
+        <Center w="100%" h="100vh">
             <VStack>
                 <Box mb="200px">
                     <HStack w="100%">
