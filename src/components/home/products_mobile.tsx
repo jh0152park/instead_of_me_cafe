@@ -42,7 +42,7 @@ export default function ProductsMobile() {
     ];
 
     return (
-        <Center w="100%" minH="100vh" bgColor="whiteAlpha.200">
+        <Center w="100%" minH="100vh">
             <VStack mt="200px">
                 <Box mb="200px">
                     <HStack w="100%">

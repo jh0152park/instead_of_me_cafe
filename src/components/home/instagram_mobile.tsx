@@ -19,7 +19,7 @@ export default function InstagramMobile() {
         images.push(require(`../../resources/images/instagram/insta${i}.jpg`));
 
     return (
-        <Center w="100%" minH="100vh" bgColor="whiteAlpha.200">
+        <Center w="100%" minH="100vh">
             <VStack mt="200px">
                 <Box mb="120px">
                     <HStack w="100%">
